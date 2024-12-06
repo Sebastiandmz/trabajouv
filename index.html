@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">UV</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="/images/menu.png" alt="">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+
+                        <img id="img-carrito" src="images/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        
+       <div class="header-content container">
+            <div class="header-txt">
+                    <!-- <span>Esta es mi tienda</span> -->
+                    <h1>Ofertas unicas</h1>
+                    <p>
+                        ¡Hola! Bienvenido a nuestra tienda de abarrotes en línea. Aquí encontrarás todo lo que necesitas para tu despensa, desde lo esencial hasta tus antojos favoritos. Navega, agrega al carrito y disfruta de una experiencia rápida y sencilla. ¡Surtir la despensa nunca fue tan fácil! 🛒
+                    </p>
+                    <div class="butons">
+                        <a href="#" class="btn-1">Info</a>
+                        <a href="#" class="btn-1">Mas informacion</a>
+                    </div>
+                </div>
+
+           <div class="header-img">
+            <img src="images/carooo.png" alt="bag">
+           </div>
+        </div>
+
+        
+    </header>
+
+    <section class="oferts container">
+
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Precios Inigualables</h3>
+                    <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s1.png " alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Descuentos</h3>
+                    <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s2.png " alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Oferta Por Temporada</h3>
+                    <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s3.png " alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <main class="products container">
+
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="images/pr1.png" alt="">
+                <div class="product-txt">
+                    <h3>Jugo Ades</h3>
+                    <p>120ml</p>
+                    <p class="precio">$25</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr2.png" alt="">
+                <div class="product-txt">
+                    <h3>Saborizante</h3>
+                    <p>12g</p>
+                    <p class="precio">$4</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr3.png" alt="">
+                <div class="product-txt">
+                    <h3>Chocolate Larin</h3>
+                    <p>80g</p>
+                    <p class="precio">$42</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr4.png" alt="">
+                <div class="product-txt">
+                    <h3>Jugo Ades Uva</h3>
+                    <p>956ml</p>
+                    <p class="precio">$25</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr5.png" alt="">
+                <div class="product-txt">
+                    <h3>Chocolate Carlos V</h3>
+                    <p>112g</p>
+                    <p class="precio">$70</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr6.png" alt="">
+                <div class="product-txt">
+                    <h3>Papas Veganas</h3>
+                    <p>45g</p>
+                    <p class="precio">$44</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr7.png" alt="">
+                <div class="product-txt">
+                    <h3>Galletas Florentinas</h3>
+                    <p>30g</p>
+                    <p class="precio">$27</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr8.png" alt="">
+                <div class="product-txt">
+                    <h3>Leche Santa Clara</h3>
+                    <p>1L</p>
+                    <p class="precio">$30</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr9.png" alt="">
+                <div class="product-txt">
+                    <h3>HOLAAAA</h3>
+                    <p>producto autentico</p>
+                    <p class="precio">$35</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carro</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr10.png" alt="">
+                <div class="product-txt">
+                    <h3>HOLAAAA</h3>
+                    <p>producto autentico</p>
+                    <p class="precio">$35</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carro</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        
+
+    </main>
+
+  
+
+
+
+    </section> -
+    
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Saber Mas</a></li>
+                    <li><a href="#">Quienes Somos</a></li>
+                
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Cuenta</h3>
+                <ul>
+                    <li><a href="#">Registrate</a></li>
+                    <li><a href="#">Inicia sesion</a></li>
+                
+            </div>
+
+            <div class="link">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li><a href="#">Preguntas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
